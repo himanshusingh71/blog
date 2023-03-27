@@ -1,0 +1,351 @@
+	body{
+		font-family: 'Berkeley Mono', Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+		box-sizing: border-box;
+		max-width: 100%;
+		max-height: 100%;
+		line-height: 2;
+		border: 2px solid #64d86b;
+		background-color: black;
+		/*background-image: url('back1.jpg');*/
+		color: #64d86b;
+	}
+
+	.all{
+		margin: 2vw;
+		margin-bottom: 0px;
+	}
+	
+	h1{
+		font-weight: normal;
+	}
+
+
+	@media screen and (min-width: 1199px)
+	{
+
+	.logo h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid #64d86b; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  
+}
+		
+	body{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		letter-spacing: 2px;
+	}
+
+	.top-bar{
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  justify-content: center;
+	}
+
+	.logo{
+		font-size: 4vh;
+		/*border: 2px solid black;*/
+		text-align: center;
+	}
+
+	.links{
+		border: 2px solid #64d86b;
+		border-left: hidden;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.links a{
+		font-size: 3vh;
+		color: #64d86b;
+		text-decoration: overline;
+	}
+
+	.links a:hover{
+		font-size:220%;
+		cursor: pointer;
+	}
+
+
+	.post-links a{
+		font-size: 3vh;
+		color: #64d86b;
+		
+	}
+
+	.Date{
+		display: inline;
+		font-style: italic;
+	}
+
+	.arrow{
+		display: inline;
+		font-size: 4vh;
+		font-weight: bold;
+	}
+ 
+}
+
+
+/* 650px to 900px */
+
+	@media screen and (max-width: 1200px )  and (min-width: 650px)
+	{
+
+		h1{
+			font-size: 3.8vh;
+		}
+
+		p{
+			font-size: 2.1vh;
+		}
+
+	.logo h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em solid antiquewhite; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  
+}
+	.top-bar{
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  justify-content: center;
+	}
+
+	.logo{
+		height: 5vh;
+		/*font-size: 3vh;*/
+		/*border: 1px solid black;*/
+		text-align: center;
+	}
+
+	.links{
+		margin-top: 7vh;
+		height: 5vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.links a{
+		font-size: 3vh;
+		color: #64d86b;
+		text-decoration: overline;
+	}
+
+	.Date{
+		display: inline;
+		font-style: italic;
+		font-size: 3vh;
+	}
+
+	.post-links a{
+		font-size: 3vh;
+		color: #64d86b;
+		
+	}
+
+		.arrow{
+		display: inline;
+		font-size: 4vh;
+		font-weight: bold;
+	}
+
+
+}
+
+
+/* 324 to 650px */
+@media screen and (max-width: 649px )  and (min-width: 324px)
+	{
+
+		h1{
+			font-size: 3.8vh;
+		}
+
+		p{
+			font-size: 2.1vh;
+		}
+
+			.logo h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em solid #64d86b; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  
+}
+	.top-bar{
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  justify-content: center;
+	}
+
+	.logo{
+		height: 5vh;
+		/*font-size: 3vh;*/
+		/*border: 1px solid black;*/
+		text-align: center;
+	}
+
+	.links{
+		margin-top: 7vh;
+		height: 5vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.links a{
+		font-size: 3vh;
+		color: #64d86b;
+		text-decoration: overline;
+	}
+
+	.Date{
+		display: inline;
+		font-style: italic;
+		font-size: 2.5vh;
+	}
+
+	.post-links a{
+		font-size: 2vh;
+		color: #64d86b;
+		
+	}
+
+		.arrow{
+		display: inline;
+		font-size: 3vh;
+		font-weight: bold;
+	}
+
+}
+
+
+
+/* 0px to 323 */
+@media screen and (max-width: 323px )  {
+
+		h1{
+			font-size: 2.9vh;
+		}
+
+		p{
+			font-size: 2.1vh;
+		}
+
+			.logo h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .10em solid antiquewhite; /* The typwriter cursor */*/
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  
+}
+	.top-bar{
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  justify-content: center;
+	}
+
+	.logo{
+		height: 5vh;
+		/*font-size: 3vh;*/
+		/*border: 1px solid black;*/
+		text-align: center;
+	}
+
+	.links{
+		margin-top: 7vh;
+		height: 2vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.links a{
+		font-size: 2vh;
+		color: #64d86b;
+		text-decoration: overline;
+	}
+
+	.Date{
+		display: inline;
+		font-style: italic;
+		font-size: 2.5vh;
+	}
+
+	.post-links a{
+		font-size: 2vh;
+		color: #64d86b;
+		
+	}
+
+		.arrow{
+		display: inline;
+		font-size: 3vh;
+		font-weight: bold;
+	}
+
+
+}
+
+	.foot{
+		display:grid;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.copyright , .name{
+		display:grid;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0px;
+	}
+
+
+
+
